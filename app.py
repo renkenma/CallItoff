@@ -9,11 +9,11 @@ if "hinweise_aufgedeckt" not in st.session_state:
     st.session_state.falsche_versuche = 0
 
 HINWEISE = [
-    "Da willst du hin, nur nicht vielleicht genau so",
-    "Das Pokemon-Duo hierzu waren Pummeluff und Ditto",
-    "Pummeluff singt gerne und Ditto kann sich zu jedem anderen Pokemon verwandeln",
-    "Es wird rockiger als das Original",
-    "Die Eras-Tour erscheint in neuem Charme",
+    "Da willst du hin, nur nicht vielleicht genau so.",
+    "Das Pokemon-Duo hierzu waren Pummeluff und Ditto.",
+    "Pummeluff singt gerne und Ditto kann sich zu jedem anderen Pokemon verwandeln.",
+    "Es wird rockiger als das Original.",
+    "Die Eras-Tour erscheint in neuem Charme.",
 ]
 
 SCHLUESSEL_WOERTER = ["taylor", "swift", "cover", "band", "poppunk", "pop punk", "call if off"]
