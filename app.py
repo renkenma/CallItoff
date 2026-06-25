@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Dein Geburtstagsgeschenk 🎁", page_icon="🎁", layout="centered")
 
 if "hinweise_aufgedeckt" not in st.session_state:
-    st.session_state.hinweise_aufgedeckt = 1
+    st.session_state.hinweise_aufgedeckt = 0
     st.session_state.erraten = False
     st.session_state.loesung_gezeigt = False
     st.session_state.falsche_versuche = 0
