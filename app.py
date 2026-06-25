@@ -46,7 +46,7 @@ if st.session_state.erraten:
     st.markdown("""
     ### 🎸 Dein Geschenk: Call it off - Taylor Swift goes Punk-Rock!
 
-    Für dich als Swiftie muss es mal auf ein Konzert gehen. Vielleicht etwas schneller und nicht ganz das Original, aber das holen wir nach, sobald es möglich ist 😊
+    Für dich als Swiftie muss es mal auf ein Konzert gehen. Vielleicht etwas anders und somit nicht ganz das Original, aber das holen wir nach, sobald es möglich ist 😊
     """)
     st.balloons()
 
@@ -56,7 +56,7 @@ if st.session_state.erraten:
 elif st.session_state.loesung_gezeigt:
     st.markdown("### 🎸 Dein Geschenk: Call it off - Taylor Swift goes Punk-Rock!")
     st.warning("""
-    Für dich als Swiftie muss es mal auf ein Konzert gehen. Vielleicht etwas schneller und nicht ganz das Original, aber das holen wir nach, sobald es möglich ist 😊
+    Für dich als Swiftie muss es mal auf ein Konzert gehen. Vielleicht etwas anders und somit nicht ganz das Original, aber das holen wir nach, sobald es möglich ist 😊
     """)
     st.balloons()
 
@@ -80,7 +80,7 @@ else:
                     st.session_state.erraten = True
                     st.rerun()
                 else:
-                    st.session_state.falsche_versuche += 1
+                    #st.session_state.falsche_versuche += 1
                     #if aufgedeckt < len(HINWEISE):
                         #st.session_state.hinweise_aufgedeckt += 1
                     st.rerun()
