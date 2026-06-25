@@ -44,10 +44,9 @@ for i in range(aufgedeckt):
 if st.session_state.erraten:
     st.success("🎉 Richtig geraten!")
     st.markdown("""
-    ### 🏖️ Strandfieber Festival!
+    ### 🎸 Dein Geschenk: Call it off - Taylor Swift goes Punk-Rock!
 
-    Treibende Beats, Festival-Vibes und gute Laune – das wartet auf dich!
-    Pack die Tanzschuhe und die Sonnenbrille ein. Wir sehen uns auf dem Festival! 🎶☀️
+    Für dich als Swiftie muss es mal auf ein Konzert gehen. Vielleicht etwas schneller und nicht ganz das Original, aber das holen wir nach, sobald es möglich ist 😊
     """)
     st.balloons()
 
@@ -55,10 +54,9 @@ if st.session_state.erraten:
 # LÖSUNG ANGEZEIGT
 # ==========================================
 elif st.session_state.loesung_gezeigt:
-    st.markdown("### 🏖️ Dein Geschenk: Strandfieber Festival!")
+    st.markdown("### 🎸 Dein Geschenk: Call it off - Taylor Swift goes Punk-Rock!")
     st.warning("""
-    Treibende Beats, Festival-Vibes und gute Laune – das wartet auf dich!
-    Pack die Tanzschuhe und die Sonnenbrille ein. Wir sehen uns auf dem Festival! 🎶☀️
+    Für dich als Swiftie muss es mal auf ein Konzert gehen. Vielleicht etwas schneller und nicht ganz das Original, aber das holen wir nach, sobald es möglich ist 😊
     """)
     st.balloons()
 
