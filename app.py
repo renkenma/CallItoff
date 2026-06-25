@@ -9,14 +9,14 @@ if "hinweise_aufgedeckt" not in st.session_state:
     st.session_state.falsche_versuche = 0
 
 HINWEISE = [
-    "Das Event ist draußen – pack am besten Sonnencreme ein.",
-    "Du wirst dabei tanzen – oder zumindest mitwippen.",
-    "Der Name des Events klingt nach einer Krankheit – aber der angenehmen Art.",
-    "Wasser spielt beim Namen eine wichtige Rolle.",
-    "Das Event beginnt mit dem Wort 'Strand'.",
+    "Da willst du hin, nur nicht vielleicht genau so",
+    "Das Pokemon-Duo hierzu waren Pummeluff und Ditto",
+    "Pummeluff singt gerne und Ditto kann sich zu jedem anderen Pokemon verwandeln",
+    "Es wird rockiger als das Original",
+    "Die Eras-Tour erscheint in neuem Charme",
 ]
 
-SCHLUESSEL_WOERTER = ["strandfieber", "strand fieber", "festival", "strand"]
+SCHLUESSEL_WOERTER = ["taylor", "swift", "cover", "band", "poppunk", "pop punk", "call if off"]
 
 # ==========================================
 # STARTSEITE
@@ -83,8 +83,8 @@ else:
                     st.rerun()
                 else:
                     st.session_state.falsche_versuche += 1
-                    if aufgedeckt < len(HINWEISE):
-                        st.session_state.hinweise_aufgedeckt += 1
+                    #if aufgedeckt < len(HINWEISE):
+                        #st.session_state.hinweise_aufgedeckt += 1
                     st.rerun()
             else:
                 st.warning("Gib erst einen Tipp ein!")
