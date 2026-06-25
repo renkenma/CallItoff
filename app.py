@@ -25,7 +25,7 @@ st.title("🎁 Dein Geburtstagsgeschenk wartet!")
 st.markdown("""
 Hey mein Schatz! 😊
 
-Du hast das Quiz abgeschlossen und dein Ergebnis ist klar: **Electro** ist dein Ding!
+Du hast das Quiz abgeschlossen und dein Ergebnis ist klar!
 Aber ich verrate dir nicht einfach so, was dein Geschenk ist. Ich gebe dir Hinweise –
 kannst du es erraten? 🕵️
 """)
