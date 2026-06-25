@@ -76,7 +76,7 @@ else:
         if st.button("✅ Raten", use_container_width=True, key=f"btn_raten_{aufgedeckt}"):
             if rateversuch.strip():
                 tipp_lower = rateversuch.strip().lower()
-                if any(kw in tipp_lower for kw in SCHLUESSEL_WOERTER):
+                if any(kw in tipp_lower for kw in SCHLUESSEL_WOERTER) and 'cover'.lower() in tipp_lower:
                     st.session_state.erraten = True
                     st.rerun()
                 else:
